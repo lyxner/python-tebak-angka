@@ -4,7 +4,7 @@ def main():
     print("=== Selamat datang di permainan Tebak Angka ===")
     angka_rahasia = random.randint(1, 100)
     percobaan = 0
-    batas_percobaan = 10              # ← ini baris baru: menetapkan batas percobaan
+    batas_percobaan = 5             # ← ini baris baru: menetapkan batas percobaan
 
     while percobaan < batas_percobaan:
         try:
